@@ -36,7 +36,7 @@ const data = [
 const Following = () => {
   return (
     <div>
-      <h4 className="text-white m-0 mt-2 ms-2">Who to follow</h4>
+      <h4 className="text-white m-0 mt-3 ms-2">Who to follow</h4>
       {data.map((e, indx) => (
         <SingleFollowing key={indx} item={e} />
       ))}

@@ -7,7 +7,7 @@ export default function Details() {
         <h3 className="m-0 text-white">React</h3>
         <small>@reactjs</small>
       </div>
-      <p className="text-white">
+      <p className="text-white" style={{fontSize:"13px"}}>
         The library for web and native user interfaces
       </p>
       <div className="link">

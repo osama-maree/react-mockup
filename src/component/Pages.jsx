@@ -24,7 +24,7 @@ const Pages = () => {
 
       <div>
         <div className="itemTrend">
-          <div className="items">
+          <div className="items mtop">
             <small>Gaming.Trending</small>
             <h4 className="m-0 text-white">#Mako</h4>
             <small>14,1K posts</small>
@@ -41,9 +41,9 @@ const Pages = () => {
 
       <div>
         <div className="itemTrend">
-          <div className="items">
+          <div className="items mtop">
             <small></small>
-            <h4 className="m-0 text-white">#Messi</h4>
+            <h4 className="m-0 text-white ">#Messi</h4>
             <small>77.2K posts</small>
           </div>
           <BsThreeDots className="text-white" />
@@ -64,7 +64,7 @@ const Pages = () => {
 
         <div>
           <div className="itemTrend">
-            <div className="items">
+            <div className="items mtop">
               <small>Gaming.Trending</small>
               <h4 className="m-0 text-white">fnatic</h4>
               <small>8,748K posts</small>

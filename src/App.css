@@ -224,6 +224,7 @@ ul {
 }
 .textBottom {
   margin-left: 4.4rem;
+  font-size: 13px;
 }
 .my-5 {
   display: block;
@@ -316,4 +317,11 @@ ul {
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
+}
+.mt-3 {
+  margin-top: 0.3rem;
+  margin-bottom: .8rem;
+}
+.mtop{
+  margin-top: 1.5rem;
 }
