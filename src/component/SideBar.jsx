@@ -22,7 +22,7 @@ const data = [
 ];
 const SideBar = () => {
   return (
-    <div>
+    <div className="sideBar">
       <img src="/assets/logo.jpg" className="imgLogo" alt="" />
       {data.map((e, indx) => (
         <SideBarBox item={e} key={indx} />

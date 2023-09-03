@@ -27,6 +27,14 @@ body {
   display: grid;
   grid-template-columns: 25% 40% 1fr;
 }
+@media screen and (max-width: 768px) {
+  .home {
+    grid-template-columns: 100%;
+  }
+  .sideBar {
+    display: none;
+  }
+}
 small {
   color: var(--second-color);
 }
@@ -320,8 +328,8 @@ ul {
 }
 .mt-3 {
   margin-top: 0.3rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
-.mtop{
+.mtop {
   margin-top: 1.5rem;
 }
