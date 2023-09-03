@@ -38,7 +38,7 @@ export default function BottomDetails() {
             </div>
             <div className="row">
               <h4 className="m-0 text-white">happy10th birthday to </h4>
-              <small className="text-info">@reactjs!</small>
+              <small className="text-info">@reactjs! &#129473;&#128175;</small>
             </div>
           </div>
         </div>
