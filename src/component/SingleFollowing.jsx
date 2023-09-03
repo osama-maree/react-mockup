@@ -4,16 +4,17 @@ const SingleFollowing = (props) => {
   return (
     <div className="ms-2" style={{ marginBottom: "1rem" }}>
       <div className="topItem">
-        <BiSolidUser className="text-secondary" />
-        <small className="box">
-          <span className="me-1">{props.item.title}</span> {props.item.icon}
-        </small>
+   {props.item.user}
+        <small>{props.item.title}</small>
       </div>
       <div className="person">
         <div className="bottom ms-2">
           <img className="img-profile" src={props.item.img} alt="" />
           <div className="detailBox">
-            <h4 className="text-white m-0 ">{props.item.name}</h4>
+            <h4 className="text-white m-0 box">
+              <span className="me-1">{props.item.name} </span>
+              {props.item.icon}
+            </h4>
             <small>{props.item.type}</small>
           </div>
         </div>
