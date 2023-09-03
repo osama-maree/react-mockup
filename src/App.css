@@ -184,8 +184,8 @@ ul {
 .me-5 {
   margin-right: 0.8rem;
 }
-.me-1{
-  margin-right: .2rem;
+.me-1 {
+  margin-right: 0.2rem;
 }
 .iconList {
   display: flex;
@@ -236,4 +236,30 @@ ul {
 .box {
   display: flex;
   align-items: center;
+}
+
+/* Side Bar Section Style */
+
+.imgLogo {
+  height: 70px;
+  width: 100px;
+  margin-top: 0.2rem;
+  margin-left: -15px;
+}
+.sidebarbox {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  font-size: 20px;
+}
+.text {
+  margin-bottom: 0.6rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 5rem;
+  border-radius: 20px;
+  background: var(--blue-color);
+  color: white;
 }
