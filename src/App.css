@@ -2,8 +2,35 @@
   box-sizing: border-box;
   color: white;
 }
+:root {
+  --second-color: #71767b;
+}
 .App {
   background-color: rgb(0, 0, 0);
   height: 100vh;
   margin: 0;
+}
+.home {
+  display: grid;
+  grid-template-columns: 25% 40% 1fr;
+}
+small {
+  color: var(--second-color);
+}
+.reactLogo {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+  margin-left: 1rem;
+}
+h3.logo {
+  margin: 0px 0px 0.2rem 0px;
+}
+.home {
+  height: 100%;
+}
+.homePage {
+  border-left: 1px solid var(--second-color);
+  border-right: 1px solid var(--second-color);
+  height: 100%;
 }

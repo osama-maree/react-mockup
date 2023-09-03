@@ -4,7 +4,7 @@ import HomePage from './HomePage.jsx'
 import RightSideBar from './RightSideBar.jsx'
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <SideBar/>
       <HomePage />
       <RightSideBar />
